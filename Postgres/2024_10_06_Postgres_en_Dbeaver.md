@@ -6,6 +6,7 @@ Ejecutaremos el siguiente comando para instalar `BBeaver`.
 ```bash
 sudo snap install dbeaver-ce
 ```
+
 ![Imagen de como se instala Dbeaver](img/dbeaver/dbeaver_001.png)
 ![Imagen de la instalacion correcta de Dbeaver](img/dbeaver/dbeaver_002.png)
 
@@ -14,6 +15,7 @@ Podemos abrirlo desde el menu del ordenador o desde la terminal ejecutando `dbea
 
 ## 3. Dentro del programa
 Dentro se nos abrira la interfaz del programa y delante una notificacion diceindonos si queremos crear una baase de datos simple. En mi caso le di a **No**.
+
 ![Imagen de como se ve el programa](img/dbeaver/dbeaver_004.png)
 ![Imagen de la notificacion de crear una bae de datos simple](img/dbeaver/dbeaver_003.png)
 
@@ -31,16 +33,20 @@ Para saber la IP de la maquina podemos ejecutar `ip -c a` en la maquina que cont
 Indico la direccion IP del host y mi password (que era `password`).
 
 Finalmente, clicamos a Finish.
+
 ![Imagen del menu de configuracion de la conexion](img/dbeaver/dbeaver_006.png)
 
 ## 6. Instalacion de Drivers y preguntas
 Es posible que salga la siguiente imagen, yo le di a **Do not share data**.
+
 ![Imagen del menu de statics collection](img/dbeaver/dbeaver_007.png)
 
 Tambien, muy importante, la instalacion de los drivers. Claramente los descargaremos
+
 ![Imagen del menu de descarga de drivers](img/dbeaver/dbeaver_008.png)
 
 ## 7. Conexion Exitosa
 Si hemos hecho todo bien, la conexion habra sido exitosa.
+
 ![Imagen de la conexion exitosa](img/dbeaver/dbeaver_009.png)
 ![Imagen de la conexion exitosa](img/dbeaver/dbeaver_010.png)
