@@ -34,5 +34,6 @@ Escribimos la siguiente orden y indicamos la contraseña que queramos.
 ```
 Yo escribí `password`. Y en Enter it again, volví a escribir `password`.
 6. Ajustar el acceso y cambiar la configuración de red
+En este paso vamos a tener que configurar dos archivos. `pg_hba.conf` y `postgresql.conf`.
 
 7. 
