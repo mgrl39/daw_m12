@@ -6,7 +6,7 @@ Ejecutaremos el siguiente comando para instalar `BBeaver`.
 ```bash
 sudo snap install dbeaver-ce
 ```
-![Imagen de como se instala Dbeaver](img/dbeaver/dbeaver_001.PNG)
+![Imagen de como se instala Dbeaver](img/dbeaver/dbeaver_001.png)
 ![Imagen de la instalacion correcta de Dbeaver](img/dbeaver/dbeaver_002.PNG)
 
 ## 2. Abrimos el programa
