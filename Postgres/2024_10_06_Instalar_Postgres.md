@@ -33,7 +33,22 @@ Escribimos la siguiente orden y indicamos la contraseña que queramos.
 \password postgres
 ```
 Yo escribí `password`. Y en Enter it again, volví a escribir `password`.
+
+Finalmente, salimos con `exit` dos veces, una para salir de `psql` y otra para volver a nuestro usuario.
+```bash
+exit
+```
+```bash
+exit
+```
 ## 6. Ajustar el acceso y cambiar la configuración de red
 En este paso vamos a tener que configurar dos archivos. `pg_hba.conf` y `postgresql.conf`.
+
+Voy a usar `vim` para modificar los archivos, podeis usar cualquier otro `nano`, `emacs`, `vscode`...
+NOTA > *🤓☝️ Para descargar `vim` se puede usar `sudo apt install vim -y`.*
+```bash
+sudo vim /etc/postgresql/14/main/pg_hba.conf
+```
+
 
 ## 7. 
