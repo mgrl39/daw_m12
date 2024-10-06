@@ -50,7 +50,7 @@ NOTA > *🤓☝️ Para descargar `vim` se puede usar `sudo apt install vim -y`.
 ```bash
 sudo vim /etc/postgresql/14/main/pg_hba.conf
 ```
-Abajo del todo del archivo vamos a escribir lo siguiente
+Abajo del todo del archivo vamos a escribir lo siguiente (son tabs, no espacios).
 ```conf
 host  all    all    0.0.0.0/0    md5
 ```
