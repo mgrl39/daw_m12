@@ -1,4 +1,4 @@
-# Instalar PostgreSQL 14 🐘
+# Instalar y Configurar PostgreSQL 14 🐘
 ## 1. Actualizar lista de paquetes
 ```bash
 sudo apt update
@@ -82,4 +82,13 @@ listen_addresses = '*';
 
 Guardamos el archivo. (si estas con `vim` es dandole al `Esc` y escribir `:wq!`, finamente click al `Enter`).
 
-## 7. 
+## 7. Reiniciamos el servicio para aplicar los cambios
+```bash
+sudo systemctl restart postresql
+```
+Podemos ver el estado con la siguiente instruccion
+```bash
+sudo systemctl status postgresql
+```
+---
+Hasta aqui la instalacion :)
