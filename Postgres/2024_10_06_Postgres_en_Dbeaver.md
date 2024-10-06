@@ -12,3 +12,5 @@ sudo snap install dbeaver-ce
 ## 8.
 ## 9.
 ## 10.
+
+![](img/dbeaver/dbeaver_001.png)
