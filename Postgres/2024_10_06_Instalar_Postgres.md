@@ -25,11 +25,11 @@ sudo su - postgres
 ```
 ## 5. Ingresamos al cliente `psql` para interactuar con el servidor y modificacion de contraseña del usuario postgres
 Ejecutamos 
-```
+```bash
 psql
 ```
 Escribimos la siguiente orden y indicamos la contraseña que queramos.
-```
+```bash
 \password postgres
 ```
 Yo escribí `password`. Y en Enter it again, volví a escribir `password`.
