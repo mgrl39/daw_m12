@@ -14,6 +14,20 @@ Aunque capaz ya viene esto, pero lo ponemos igualmente :)
 sudo systemctl start postgresql
 sudo systemctl enable postgresql
 ```
+Con el siguiente comando podemos ver el estado, estara activo.
+```bash
+sudo systemctl status postgresql
+```
+4. Entramos al usuario postgres
+```bash
+sudo su - postgres
+```
+Indicamos la contraseña de nuestro usuario, claro, dando por hecho que estamos en un usuario con permisos de `sudo`.
+5. Ingresamos al cliente `psql` para interactuar con el servidor
+Ejecutamos 
+```
+psql
+```
+6. Ajustar el acceso y cambiar la configuración de red
 
-4. a
-5. 
+7. 
