@@ -45,6 +45,7 @@ exit
 En este paso vamos a tener que configurar dos archivos. `pg_hba.conf` y `postgresql.conf`.
 
 Voy a usar `vim` para modificar los archivos, podeis usar cualquier otro `nano`, `emacs`, `vscode`...
+
 NOTA > *🤓☝️ Para descargar `vim` se puede usar `sudo apt install vim -y`.*
 ```bash
 sudo vim /etc/postgresql/14/main/pg_hba.conf
