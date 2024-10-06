@@ -3,6 +3,7 @@
 ```bash
 sudo apt update
 ```
+![actualizar lista de paquetes](img/1.PNG)
 ## 2. Instalar Postgres
 ```bash
 sudo apt install postgresql
