@@ -75,6 +75,7 @@ host  all    all    0.0.0.0/0    md5
 - `0.0.0.0/0` -> permite las conexiones desde cualquier IP
 - `md5` -> indica que se usara la autenticacion basada en contraseña.
 Guardamos los cambios (si estas con `vim` es dandole al `Esc` y escribir `:wq!`, finamente click al `Enter`).
+
 ![Imagen de la ultima linea añadida](img/10.PNG)
 ### 6.2 `postresql.conf`
 Este archivo es donde se configura ajustes generales del servidor, coo el puerto y la direccion IP desde la cual escucha el server PostgreSQL.
