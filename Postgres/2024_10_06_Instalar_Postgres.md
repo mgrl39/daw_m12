@@ -1,4 +1,4 @@
-# Instalar Postgres
+# Instalar PostgreSQL 14
 ## 1. Actualizar lista de paquetes
 ```bash
 sudo apt update
