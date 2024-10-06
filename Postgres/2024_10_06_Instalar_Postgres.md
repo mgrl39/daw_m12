@@ -50,6 +50,15 @@ NOTA > *🤓☝️ Para descargar `vim` se puede usar `sudo apt install vim -y`.
 ```bash
 sudo vim /etc/postgresql/14/main/pg_hba.conf
 ```
+Abajo del todo del archivo vamos a escribir lo siguiente
+```conf
+host  all    all    0.0.0.0/0    md5
+```
+- `host` -> permite conexiones TCP/IP.
+- `all` -> aplica a todas las bases de datos y usuarios.
+- `0.0.0.0/0` -> permite las conexiones desde cualquier IP
+- `md5` -> indica que se usara la autenticacion basada en contraseña.
+Guardamos los cambios (si estas con `vim` es dandole al `Esc` y darle `:wq!`).
 
 
 ## 7. 
