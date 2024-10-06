@@ -90,7 +90,7 @@ sudo ufw allow 5432/tcp
 ```bash
 sudo systemctl restart postresql
 ```
-Podemos ver el estado con la siguiente instruccion
+Podemos ver el estado con la siguiente orden
 ```bash
 sudo systemctl status postgresql
 ```
