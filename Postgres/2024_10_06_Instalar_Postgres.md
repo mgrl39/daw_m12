@@ -44,6 +44,7 @@ exit
 ## 6. Ajustar el acceso y cambiar la configuración de red
 En este paso vamos a tener que configurar dos archivos. `pg_hba.conf` y `postgresql.conf`.
 
+### 6.1 `pg_hba.conf`
 Voy a usar `vim` para modificar los archivos, podeis usar cualquier otro `nano`, `emacs`, `vscode`...
 
 NOTA > *🤓☝️ Para descargar `vim` se puede usar `sudo apt install vim -y`.*
@@ -58,7 +59,7 @@ host  all    all    0.0.0.0/0    md5
 - `all` -> aplica a todas las bases de datos y usuarios.
 - `0.0.0.0/0` -> permite las conexiones desde cualquier IP
 - `md5` -> indica que se usara la autenticacion basada en contraseña.
-Guardamos los cambios (si estas con `vim` es dandole al `Esc` y darle `:wq!`).
+Guardamos los cambios (si estas con `vim` es dandole al `Esc` y escribir `:wq!`, finamente click al `Enter`).
 
 
 ## 7. 
