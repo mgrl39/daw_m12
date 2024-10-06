@@ -19,10 +19,10 @@ Con el siguiente comando podemos ver el estado, estara activo.
 sudo systemctl status postgresql
 ```
 4. Entramos al usuario postgres
+Indicamos la contraseña de nuestro usuario, claro, dando por hecho que estamos en un usuario con permisos de `sudo`.
 ```bash
 sudo su - postgres
 ```
-Indicamos la contraseña de nuestro usuario, claro, dando por hecho que estamos en un usuario con permisos de `sudo`.
 5. Ingresamos al cliente `psql` para interactuar con el servidor y modificacion de contraseña del usuario postgres
 Ejecutamos 
 ```
