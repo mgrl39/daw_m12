@@ -81,8 +81,12 @@ listen_addresses = '*';
 ```
 
 Guardamos el archivo. (si estas con `vim` es dandole al `Esc` y escribir `:wq!`, finamente click al `Enter`).
-
-## 7. Reiniciamos el servicio para aplicar los cambios
+## 7. Abrimos el puerto en el firewall (opcional)
+Si tienes un firewall habilitado, necesitarás permitir conexiones en el puerto predeterminado de PostgreSQL (5432): 
+```bash
+sudo ufw allow 5432/tcp
+```
+## 8. Reiniciamos el servicio para aplicar los cambios
 ```bash
 sudo systemctl restart postresql
 ```
