@@ -70,4 +70,16 @@ Guardamos los cambios (si estas con `vim` es dandole al `Esc` y escribir `:wq!`,
 Este archivo es donde se configura ajustes generales del servidor, coo el puerto y la direccion IP desde la cual escucha el server PostgreSQL.
 
 Mas info en: https://www.postgresql.org/docs/current/config-setting.html
+
+```bash
+sudo vim /etc/postgresql/14/main/postgresql.conf
+```
+
+Buscamos la linea que define `listen_addresses` (normalmente viene comentada con `#`) y la descomentamos, y cambiamos su valor a lo siguiente:
+```conf
+listen_addresses = '*';
+```
+
+Guardamos el archivo. (si estas con `vim` es dandole al `Esc` y escribir `:wq!`, finamente click al `Enter`).
+
 ## 7. 
