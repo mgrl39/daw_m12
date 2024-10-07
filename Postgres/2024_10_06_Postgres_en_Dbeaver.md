@@ -8,21 +8,25 @@ sudo snap install dbeaver-ce
 ```
 
 ![Imagen de como se instala Dbeaver](img/dbeaver/dbeaver_001.png)
+
 ![Imagen de la instalacion correcta de Dbeaver](img/dbeaver/dbeaver_002.png)
 
 ## 2. Abrimos el programa
 Podemos abrirlo desde el menu del ordenador o desde la terminal ejecutando `dbeaver-ce`.
 
 ## 3. Dentro del programa
-Dentro se nos abrira la interfaz del programa y delante una notificacion diceindonos si queremos crear una baase de datos simple. En mi caso le di a **No**.
+Dentro se nos abrira la interfaz del programa y delante una notificacion indicando si queremos crear una baase de datos simple. En mi caso le di a **No**.
+
+![Imagen de la notificacion de crear una bae de datos simple](img/dbeaver/dbeaver_003.png)
 
 ![Imagen de como se ve el programa](img/dbeaver/dbeaver_004.png)
-![Imagen de la notificacion de crear una bae de datos simple](img/dbeaver/dbeaver_003.png)
+
 
 ## 4. Conexion a la base de datos.
 Despues de darle a **No**, directamente se me abrio esta pestaña. Si no se os abre automaticamente, en **Database**, la primera opcion es **New Database Connection**. Otra manera es darle a `Shift + Ctrl + N`.
 
 Seleccionamos **PostgreSQL** y le damos a **Next**.
+
 ![Imagen del menu de seleccion de base de datos](img/dbeaver/dbeaver_005.png)
 
 ## 5. Configuracion de la conexion
@@ -49,4 +53,5 @@ Tambien, muy importante, la instalacion de los drivers. Claramente los descargar
 Si hemos hecho todo bien, la conexion habra sido exitosa.
 
 ![Imagen de la conexion exitosa](img/dbeaver/dbeaver_009.png)
+
 ![Imagen de la conexion exitosa](img/dbeaver/dbeaver_010.png)
